@@ -20,12 +20,12 @@
                         <form id="productForm">
                             <div class="pro">
                                 <label for="productName">Product Name</label>
-                                <input type="text" id="productName" name="productName">
+                                <input type="text" id="productName" name="productName" placeholder="product name">
                                 <span id="pr-error" class="error"></span>
                             </div>
                             <div class="amt">
                                 <label for="amount">Amount</label>
-                                <input type="number" id="amount" name="amount">
+                                <input type="number" id="amount" name="amount" placeholder="amount">
                                 <span id="amt-error" class="error"></span>
                             </div>
                             <div class="bt">
@@ -33,17 +33,19 @@
                             </div>
                         </form>
                     </div>
-                    
+                    <hr>
                     <div class="data">
                         <div class="data-top">
                             <h3>Product Name</h3>
-                            <h3>Amount  <i class="fa-solid fa-caret-up"></i></h3>
+                            <h3>Amount   <i id="up" class="fa-solid fa-caret-up fa-lg" style="color: #7b67c3;"></i></h3>
                            
                         </div>
+                       
                         <div class="data-list" id="data-lst">
 
                             
                         </div>
+                        <hr>
                         <div class="total">
                             <h3>Total Amount</h3>
                             <h3 id="totalAmount">0</h3>

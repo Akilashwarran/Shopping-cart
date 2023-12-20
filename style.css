@@ -17,6 +17,8 @@ body{
 label{
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
+    font-weight: bold;
+   
 }
 .container{
     width: 100%;
@@ -24,7 +26,8 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7b67c3;
+    /* background-color: #7b67c3; */
+    background-image: linear-gradient(to right, #7b67c3,#451ad3);
 }
 .card{
     width: 70%;
@@ -74,18 +77,24 @@ form{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    gap: 0px;
-    justify-content: space-around;
+    gap: 30px;
+    justify-content: center;
     align-items: center;
 
 }
 .pro{
     width: 80%;
     height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .amt{
     width: 80%;
     height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .bt{
     width: 80%;
@@ -103,6 +112,8 @@ button{
     border: none;
     border-radius: 5px;
     background-color: #451ad3;
+    background-image: linear-gradient(to right,#008cff,#451ad3);
+
     
 
 }
@@ -110,7 +121,7 @@ input{
     width: 100%;
     height: 20%;
     border: none;
-
+    font-size: 17px;
     border-bottom: 1px solid;
     /* height: 90%; */
 }
@@ -137,34 +148,47 @@ h3{
 }
 .data-list{
     width: 90%;
-    /* height: 60%; */
-    max-height: 252px;
-   
-   /* display: flex; */
-    overflow-y: scroll;
+    max-height: 240px;
+   /* display: flex;
+   flex-direction: column; */
+    overflow-y: auto;
 
 }
 
 .fa-solid fa-trash{
     width: 30%;
+    color: red;
 }
+
 .listdata{
-    width: 70;
+    width: 90%;
     height: 60px;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+   
 }
+
 .newItem{
-    width: 70;
+    width: 90;
     height: 60px;
-    /* display: flex;
-    justify-content: space-between; */
+     display: flex; 
+     align-items: center;
+    justify-content: space-between; 
+}
+.even{
+    background-color: lightgrey;
+}
+#up{
+    cursor: pointer;
 }
 
 h5{
     font-size: 17px;
+    margin: 0;
     font-family: 'Varela Round', sans-serif;
 }
+
 .total{
     width: 90%;
     display: flex;
