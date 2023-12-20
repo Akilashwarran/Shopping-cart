@@ -145,6 +145,7 @@ h3{
     height: 20%;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid lightslategray;
 }
 .data-list{
     width: 90%;
@@ -152,6 +153,7 @@ h3{
    /* display: flex;
    flex-direction: column; */
     overflow-y: auto;
+    border-bottom: 1px solid lightslategray ;
 
 }
 
