@@ -10,16 +10,12 @@ document.getElementById('productForm').addEventListener('submit', function (even
         if (productName === '') {
             document.getElementById('pr-error').textContent = 'Invalid Product Name';
             return;
-        } else {
-            document.getElementById('pr-error').textContent = '';
-        }
+        } 
     
         if (amount === '' || isNaN(amount)) {
             document.getElementById('amt-error').textContent = 'Invalid amount';
             return;
-        } else {
-            document.getElementById('amt-error').textContent = '';
-        }
+        } 
     
         createListDiv(productName, amount);
     }
